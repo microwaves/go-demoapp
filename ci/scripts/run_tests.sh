@@ -2,5 +2,5 @@
 
 set -e -u -x
 
-export GOPATH=$PWD
+export GOPATH=$PWD/git-go-demoapp
 go test
