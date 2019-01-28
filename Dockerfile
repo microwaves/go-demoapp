@@ -1,4 +1,4 @@
-FROM golang:1.11 as builder
+FROM golang:1.11-alpine as builder
 
 WORKDIR /go/src/github.com/microwaves/go-demoapp
 ADD . .
