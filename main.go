@@ -10,7 +10,7 @@ import (
 var port = 8080
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Yo! This is just a demo page. :-)")
+	io.WriteString(w, "Hey! This is just a demo page. :-)")
 }
 
 func main() {

@@ -32,7 +32,7 @@ func TestIndexGet200(t *testing.T) {
 
 func TestIndexBody(t *testing.T) {
 	setup()
-	expected := "Yo! This is just a demo page. :-)"
+	expected := "Hey! This is just a demo page. :-)"
 
 	req, err := http.NewRequest("GET", "/", nil)
 	if err != nil {
