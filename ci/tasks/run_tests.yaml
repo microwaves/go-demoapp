@@ -8,7 +8,7 @@ image_resource:
     tag: 1.11-alpine
 
 inputs:
-  - name: git-go-demoapp
+  - name: git
 
 run:
-  path: git-go-demoapp/ci/scripts/run_tests.sh
+  path: git/ci/scripts/run_tests.sh
